@@ -208,8 +208,6 @@ background-color: var(--team-color-background);
 .team-player {
     color: var(--title-text-color);
     
-    
-        
         font-weight: 500;
         font-size: 16px;
         line-height: 1.19;
@@ -280,4 +278,31 @@ background-color: var(--team-color-background);
 /* Стили potfolio.html */
 
 
+/* Кнопка портфолио */
 
+.button-portfolio {
+    color: var(--title-text-color);
+    background-color: var(--team-color-background);
+
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        letter-spacing: 0.03em;
+        cursor: pointer;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+background-color: var(--accent-color);
+}
+
+/* Портфолио работ */
+
+.portfolio-list {
+    color: var(--title-text-color);
+    
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+         letter-spacing: 0.06em;
+}
