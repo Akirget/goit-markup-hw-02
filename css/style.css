@@ -42,15 +42,27 @@
 .page {
     background-color: var(--white-color);
     color: var(--primary-text-color);
+
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 
 /* Логотип компании */
 .logo {
     color: var(--accent-color);
+
+    font-family: 'Raleway';
+    font-style: 400;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+
 }
 
 .logo-black {
     color: var(--black-color);
+    
 }
 
 /* Убираем точки */
@@ -66,6 +78,13 @@
 
 .site-nav .link {
     color: var(--title-text-color);
+
+
+    font-style: 400;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 /* Применяем эффект ходор */
@@ -82,6 +101,14 @@
 
 .auth-nav .link {
     color: var(--primary-text-color);
+
+
+    font-style: 400;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
 }
 
 .auth-nav .link:hover,
@@ -97,24 +124,79 @@
 
 .hero-title {
     color: var(--white-color);
+    
+        font-style: 400;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em; 
+        text-transform: uppercase;
 }
 
 /* Кнопка */
-.button {
+.hero-button {
     color: var(--white-color) ;
     background-color: var(--accent-color);
+
+        font-family: Roboto;
+        font-style: 400;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
 }
+
+.hero-button:hover,
+.hero-button:focus {
+    color: var(--accent-color);
+    background-color: var(--white-color);
+}
+
 
 /* Преимущества компании */
 
 .features .title {
     color: var(--title-text-color);
+
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+}
+
+
+.title-description {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 /* Чем занимается компания */
 
 .section-title {
     color: var(--title-text-color);
+    font-style: 400;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
 }
 
 /* Команда компании */
@@ -125,6 +207,24 @@ background-color: var(--team-color-background);
 
 .team-player {
     color: var(--title-text-color);
+    
+    
+        
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+.team-profession {
+    color: var(--primary-text-color);
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /* Футер */
@@ -142,6 +242,14 @@ background-color: var(--team-color-background);
 
 .footer-adres {
     color: var(--white-color);
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        
 }
 .footer-adres:hover,
 .footer-adres:focus {
@@ -152,9 +260,24 @@ background-color: var(--team-color-background);
 
 .footer-mail {
     color: var(--footer-color-mail);
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
 }
 
 .footer-mail:hover,
 .footer-adres:focus {
     color: var(--accent-color);
 }
+
+
+
+
+/* Стили potfolio.html */
+
+
+
