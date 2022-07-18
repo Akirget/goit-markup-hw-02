@@ -39,11 +39,12 @@
 
 /* Вся страница */
 
-.page {
+.body {
     background-color: var(--white-color);
     color: var(--primary-text-color);
 
     font-family: Roboto, sans-serif;
+    font-size: 14px;
     letter-spacing: 0.03em;
 }
 
@@ -77,7 +78,6 @@
     color: var(--title-text-color);
 
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -153,7 +153,6 @@
 .features .title {
     color: var(--title-text-color);
 
-        font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
         text-transform: uppercase;
@@ -162,8 +161,6 @@
 
 .title-description {
 
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
     }
 
@@ -185,7 +182,6 @@
 .section-title {
     color: var(--title-text-color);
         
-        font-weight: 700;
         font-size: 36px;
         line-height: 1.17;
         text-align: center;
@@ -207,7 +203,6 @@ background-color: var(--team-color-background);
 }
 
 .team-profession {
-    color: var(--primary-text-color);
     
     font-size: 16px;
     line-height: 1.19;
@@ -237,10 +232,6 @@ background-color: var(--team-color-background);
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
-}
-.footer-adres:hover,
-.footer-adres:focus {
-    color: var(--accent-color);
 }
 
 /* Почта и телефон компании */
@@ -281,8 +272,14 @@ background-color: var(--team-color-background);
         cursor: pointer;
 }
 
+.aktiv {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
 .button-portfolio:hover,
 .button-portfolio:focus {
+color: var(--white-color);
 background-color: var(--accent-color);
 }
 
@@ -291,9 +288,6 @@ background-color: var(--accent-color);
 .portfolio-list {
     color: var(--title-text-color);
     
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
@@ -302,11 +296,8 @@ background-color: var(--accent-color);
 .portfolio-text {
     color: var(--primary-text-color);
 
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.88;
-        letter-spacing: 0.03em;
+        
         
 }
