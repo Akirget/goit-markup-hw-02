@@ -52,12 +52,9 @@
     color: var(--accent-color);
 
     font-family: 'Raleway';
-    font-style: 400;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-
-
 }
 
 .logo-black {
@@ -79,8 +76,6 @@
 .site-nav .link {
     color: var(--title-text-color);
 
-
-    font-style: 400;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -102,8 +97,6 @@
 .auth-nav .link {
     color: var(--primary-text-color);
 
-
-    font-style: 400;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -125,7 +118,6 @@
 .hero-title {
     color: var(--white-color);
     
-        font-style: 400;
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
@@ -140,7 +132,6 @@
     background-color: var(--accent-color);
 
         font-family: Roboto;
-        font-style: 400;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.88;
@@ -192,7 +183,7 @@
 
 .section-title {
     color: var(--title-text-color);
-    font-style: 400;
+        
         font-weight: 700;
         font-size: 36px;
         line-height: 1.17;
@@ -212,17 +203,14 @@ background-color: var(--team-color-background);
         font-size: 16px;
         line-height: 1.19;
         text-align: center;
-        letter-spacing: 0.03em;
 }
 
 .team-profession {
     color: var(--primary-text-color);
     
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
-    text-align: center;
-    letter-spacing: 0.03em;
+    text-align: center; 
 }
 
 /* Футер */
@@ -242,7 +230,6 @@ background-color: var(--team-color-background);
     color: var(--white-color);
 
         font-family: 'Roboto';
-        font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
@@ -260,7 +247,6 @@ background-color: var(--team-color-background);
     color: var(--footer-color-mail);
 
         font-family: 'Roboto';
-        font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
@@ -284,9 +270,11 @@ background-color: var(--team-color-background);
     color: var(--title-text-color);
     background-color: var(--team-color-background);
 
+        font-family: 'Roboto';
         font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
+        text-align: center;
         letter-spacing: 0.03em;
         cursor: pointer;
 }
@@ -305,4 +293,13 @@ background-color: var(--accent-color);
         font-size: 18px;
         line-height: 2;
          letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+    color: var(--primary-text-color);
+ 
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+        
 }
